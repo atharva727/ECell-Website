@@ -1,0 +1,25 @@
+.about h1{
+    font-weight: 600;
+    font-size: 44px;
+}
+
+.about .btn-read-more{
+    font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 40px;
+  transition: 0.3s;
+  color: rgba(250, 202, 00, 1);
+  background: rgba(0, 0, 00, 0.8);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  border: 2px solid rgba(250, 202, 00, 0.8);
+}
+
+.about .btn-read-more:hover{
+    
+  color: #fff;
+  background: rgba(250, 202, 00, 0.8);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
